@@ -1,0 +1,105 @@
+@media (max-width:1024px) {
+    h1{
+        font-size: 3.25rem !important;
+    }
+    h2{
+        line-height: 1.8rem !important;
+        font-size: 1.1375rem;
+    }
+    .wrapper{
+        padding-top: 1.25rem ;
+        padding-bottom: 1.125rem;
+    }
+    .navigation-wrap{
+        padding: 0 100px;
+    }
+
+}
+@media (max-width:991px) {
+    h4,.choose.card a h4{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 1.1354rem;
+
+    }
+    .text-center{
+        width: 100%;
+    }
+    
+    .navigation-wrap{
+        text-align: center;
+        background-color: black;
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.785rem;
+    }
+    .hero-slider.carousel-caption{
+        transform: translate(-70%,-50%);
+    }
+    form input[type=text]{
+        margin: 1rem !important;
+    }
+}
+@media (max-width:767px) {
+    .main-btn{
+        margin: auto;
+    }
+    .text-sec{
+        text-align: center;
+        padding-top: 1.875rem;
+    }
+    h2::before{
+        left: 45%;
+    }
+    .hero-slider .carousel-caption{
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 500px;
+    }
+
+}
+@media (max-width:575px) {
+   h1{
+    font-size: 1.5rem !important;
+    margin-bottom: 8px;
+   }
+   h2{
+    font-size: 1.25rem !important;
+    line-height: 1rem;
+    margin-bottom: 5px;
+   }
+   form input[type=email],
+form input[type=text],
+.subscribe{
+    padding: 0 8px;
+    font-size: 12px;
+    text-align: center;
+}
+form.form-group,
+form .inpu[type=text]{
+    margin: 0;
+    width: 100%;
+}
+
+form .form-group{
+    white-space: nowrap;
+}
+form input[type=email]{
+    width: 50%;
+}
+
+}
+@media (max-width:330px) {
+    h2::before{
+        top: -0.8rem;
+    }
+    .hero-slider .carousel-caption p{
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
+}
